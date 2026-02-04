@@ -7,3 +7,4 @@ export '/pages/administradores/administradores_widget.dart'
 export '/pages/asignaturas/asignaturas_widget.dart' show AsignaturasWidget;
 export '/pages/departamentos/departamentos_widget.dart'
     show DepartamentosWidget;
+export '/pages/login/login_widget.dart' show LoginWidget;

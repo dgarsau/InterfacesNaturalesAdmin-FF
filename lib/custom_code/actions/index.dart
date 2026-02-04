@@ -6,3 +6,4 @@ export 'asociar_asignatura.dart' show asociarAsignatura;
 export 'obtener_profesores.dart' show obtenerProfesores;
 export 'obtener_administradores.dart' show obtenerAdministradores;
 export 'modificar_usuario.dart' show modificarUsuario;
+export 'login_usuario.dart' show loginUsuario;
