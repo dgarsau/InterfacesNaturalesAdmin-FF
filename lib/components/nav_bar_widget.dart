@@ -207,6 +207,36 @@ class _NavBarWidgetState extends State<NavBarWidget> {
                         ),
                   ),
                 ),
+                InkWell(
+                  splashColor: Colors.transparent,
+                  focusColor: Colors.transparent,
+                  hoverColor: Colors.transparent,
+                  highlightColor: Colors.transparent,
+                  onTap: () async {
+                    context.pushNamed(EstadisticasWidget.routeName);
+                  },
+                  child: Text(
+                    'Estadisticas',
+                    style: FlutterFlowTheme.of(context).titleMedium.override(
+                          font: GoogleFonts.interTight(
+                            fontWeight: FlutterFlowTheme.of(context)
+                                .titleMedium
+                                .fontWeight,
+                            fontStyle: FlutterFlowTheme.of(context)
+                                .titleMedium
+                                .fontStyle,
+                          ),
+                          color: FlutterFlowTheme.of(context).primary,
+                          letterSpacing: 0.0,
+                          fontWeight: FlutterFlowTheme.of(context)
+                              .titleMedium
+                              .fontWeight,
+                          fontStyle: FlutterFlowTheme.of(context)
+                              .titleMedium
+                              .fontStyle,
+                        ),
+                  ),
+                ),
               ].divide(SizedBox(width: 16.0)),
             ),
           ],

@@ -10,9 +10,12 @@ import 'package:flutter/material.dart';
 
 import 'package:supabase_flutter/supabase_flutter.dart';
 
-Future<dynamic> obtenerAdministradores() async {
+Future<dynamic> obtenerAlumnosNota(int asignaturaId) async {
   final supabase = Supabase.instance.client;
-  final res = await supabase.from('usuarios').select().eq('tipo', 'admin');
+  final res = await supabase
+      .from('alumno_asignatura')
+      .select('usuarios(nombre), nota')
+      .eq('asignatura_id', asignaturaId);
   return res;
 }
 

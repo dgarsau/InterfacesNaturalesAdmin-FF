@@ -1,4 +1,5 @@
 export 'obtener_alumnos.dart' show obtenerAlumnos;
+export 'obtener_alumnos_nota.dart' show obtenerAlumnosNota;
 export 'obtener_asignaturas.dart' show obtenerAsignaturas;
 export 'obtener_departamentos.dart' show obtenerDepartamentos;
 export 'asociar_departamento.dart' show asociarDepartamento;
@@ -7,3 +8,4 @@ export 'obtener_profesores.dart' show obtenerProfesores;
 export 'obtener_administradores.dart' show obtenerAdministradores;
 export 'modificar_usuario.dart' show modificarUsuario;
 export 'login_usuario.dart' show loginUsuario;
+export 'generar_pdf.dart' show generarPdf;
